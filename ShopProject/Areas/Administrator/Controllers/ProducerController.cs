@@ -11,7 +11,7 @@ namespace ShopProject.Areas.Administrator.Controllers
     {
         Models.AdminContext dbPdc = new Models.AdminContext();
         //
-        // GET: /Administrator/Producer/
+        // GET: /Administrator/Producer/123
         [HandleError]
         public ActionResult Index(string error)
         {
